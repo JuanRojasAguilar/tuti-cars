@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import Porsche from "/public/images/porsche-phone.jpg";
+import YouTubeIcon from "@mui/icons-material/YouTube";
 
 const Contact = () => {
   const Styles = {
@@ -52,11 +53,23 @@ const Contact = () => {
                 <InstagramIcon /> Instagram
               </Link>
             </li>
+            <li className={Styles.listItem}>
+              <Link
+                href="https://www.youtube.com/@JuanCarlosGutierrez-jg3le"
+                target="_blank"
+              >
+                <YouTubeIcon /> Youtube
+              </Link>
+            </li>
           </ul>
         </figure>
       </div>
       <div className="w-1/2 flex justify-center">
-        <Image className={Styles.asidePhoto} src={Porsche} alt="Porsche photo"/>
+        <Image
+          className={Styles.asidePhoto}
+          src={Porsche}
+          alt="Porsche photo"
+        />
       </div>
     </section>
   );

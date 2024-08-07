@@ -13,10 +13,15 @@ const NavPrincipal = () => {
     `,
     listItem: `
       w-1/3
+      focus:outline-none
+      select-none
       text-center
+      border
+      border-b-slate-300
     `,
     listLink: `
-      text-xl
+      text-2xl
+      font-normal
       flex 
       justify-center
       items-center

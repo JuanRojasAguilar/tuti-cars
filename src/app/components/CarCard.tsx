@@ -1,12 +1,12 @@
 import Image, { StaticImageData } from "next/image";
 
 interface IcarCard {
-  src: StaticImageData,
+  src: StaticImageData | string,
   title: string,
   description: string
 }
 
-const CarCard = (car: IcarCard)  => {
+const CarCard = ({src, title, description}: IcarCard)  => {
   const Styles = {
     card: `
       flex 
@@ -14,10 +14,10 @@ const CarCard = (car: IcarCard)  => {
       text-white
       bg-indigo-500
       w-[340px]
+      rounded-lg
     `,
     textContainer: `
       p-4
-      
     `,
     button: `
       self-center
@@ -35,10 +35,10 @@ const CarCard = (car: IcarCard)  => {
   }
   return (
       <div className={Styles.card}>
-        <Image src={car.src} alt={car.title} width={400} height={400} />
+        <Image src={src} alt={title} width={400} height={400} className="rounded-lg" />
         <div className={Styles.textContainer}>
-          <h3>{car.title}</h3>
-          <p>{car.description}</p>
+          <h3>{title}</h3>
+          <p>{description}</p>
         </div>
         <button className={Styles.button}>Find out more</button>
       </div>

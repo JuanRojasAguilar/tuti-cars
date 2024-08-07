@@ -23,13 +23,19 @@ const Banner = () => {
       font-semibold
       w-2/3
       text-6xl
-    `
-  }
+    `,
+  };
   return (
     <div className={Styles.contenedor}>
-      <Image src={TwoCars} alt="Photo of a Cobra and SL 300" className={Styles.image} />
+      <Image
+        src={TwoCars}
+        alt="Photo of a Cobra and SL 300"
+        className={Styles.image}
+      />
       <div className={Styles.textContainer}>
-        <h2 className="drop-shadow-lg">La industria automotriz de Colombia a prueba</h2>
+        <h2 className="drop-shadow-lg">
+          La industria automotriz de Colombia a prueba
+        </h2>
       </div>
     </div>
   );

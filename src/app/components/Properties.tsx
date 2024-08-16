@@ -52,6 +52,7 @@ const Properties = () => {
       gap-6
       px-12
       py-12
+      justify-center
     `,
   }
   return (

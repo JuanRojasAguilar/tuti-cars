@@ -6,8 +6,10 @@ const Gallery = () => {
   const [carros, setCarros] = useState<IcarCard[]>([]);
 
   useEffect(() => {
-    setCarros((prevstate) => [{ src: "", title: "Ferrari", description: "Ferrari lorem lorem lorem lorem" }, ...prevstate])
-    setCarros((prevstate) => [{src: "", title: "bentley", description: "lorem lorem lorem lorem"}, ...prevstate]);
+    const ferrari: IcarCard = { src: "", title: "Ferrari", description: "Ferrari lorem lorem lorem lorem" };
+    const bentley: IcarCard = {src: "", title: "bentley", description: "lorem lorem lorem lorem"};
+
+    setCarros((prevstate) => [ferrari, bentley])
   },[]);
 
   const styles = {
@@ -16,6 +18,7 @@ const Gallery = () => {
       gap-4
       px-12
       pt-8
+      justify-center
     `
   }
 

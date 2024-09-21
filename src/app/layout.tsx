@@ -3,7 +3,7 @@ import { Afacad } from "next/font/google";
 import "./globals.css";
 import NavPrincipal from "./components/NavPrincipal";
 
-const inter = Afacad();
+const inter = Afacad({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Tuti Cars",

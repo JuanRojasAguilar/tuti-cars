@@ -17,18 +17,20 @@ const PropertyCard = ({icon = "", title, descText}: ICard) => {
       flex-col
       h-60
       w-80
-      border-slate-800
+      border-0
       p-4
       rounded-md
-      shadow-xl
+      shadow-2xl
+      shadow-[#000]
     `,
     icon: `
     `,
     title: `
       pl-2
-      text-2xl
+      text-3xl
     `,
     description: `
+      text-xl
       pt-2
       pl-2
     `

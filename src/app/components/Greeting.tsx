@@ -1,9 +1,8 @@
 const Greeting = () => {
   return (
-    <div className="pt-6 pl-12 text-3xl">
+    <div className="pt-6 pl-12 text-5xl tracking-wide">
       <h2>La industria automotriz de Colombia desde otra perspectiva.</h2>
-      <hr />
-      <p className="text-lg">Dandole vida a los carros mediante un tributo hecho con calidad y pasion.</p>
+      <p className="text-3xl">Dandole vida a los carros mediante un tributo hecho con calidad y pasion.</p>
     </div>
   )
 }

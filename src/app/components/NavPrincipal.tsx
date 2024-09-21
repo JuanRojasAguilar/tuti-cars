@@ -16,11 +16,9 @@ const NavPrincipal = () => {
       focus:outline-none
       select-none
       text-center
-      border
-      border-b-slate-300
     `,
     listLink: `
-      text-2xl
+      text-4xl
       font-normal
       flex 
       justify-center
@@ -30,8 +28,8 @@ const NavPrincipal = () => {
       transition
       duration-200
       hover:ease-in-out
-      hover:bg-indigo-500
-      hover:text-white
+      hover:bg-white
+      hover:text-[#3f4a3d]
     `,
   };
   return (

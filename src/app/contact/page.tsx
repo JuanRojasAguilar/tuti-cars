@@ -22,16 +22,17 @@ const Contact = () => {
       justify-center
     `,
     pageTitle: `
-      text-6xl
+      text-8xl
       mb-4
     `,
     list: `
       text-lg
     `,
     listTitle: `
-      text-3xl
+      text-6xl
     `,
     listItem: `
+      text-2xl
       hover:underline
       underline-offset-4
     `,
@@ -41,13 +42,13 @@ const Contact = () => {
       <div className={Styles.container}>
         <h1 className={Styles.pageTitle}>Contactanos!</h1>
         <figure>
-          <figcaption className={Styles.listTitle}>Juan Carlos</figcaption>
+          <figcaption className={Styles.listTitle}>Tuti Gutierrez</figcaption>
 
           <ul className={Styles.list}>
             {/* <li>correo@mail.com</li> */}
             <li className={Styles.listItem}>
               <Link
-                href="https://www.instagram.com/juancarlosgutierrez.f?igsh=aHNmcjRyYmNsaW1s"
+                href=""
                 target="_blank"
               >
                 <InstagramIcon /> Instagram
@@ -55,7 +56,7 @@ const Contact = () => {
             </li>
             <li className={Styles.listItem}>
               <Link
-                href="https://www.youtube.com/@JuanCarlosGutierrez-jg3le"
+                href=""
                 target="_blank"
               >
                 <YouTubeIcon /> Youtube

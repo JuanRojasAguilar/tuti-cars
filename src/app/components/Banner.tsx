@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import TwoCars from "/public/images/twoCars.jpg";
+import TwoCars from "/public/images/tutiCar1.jpeg";
 
 const Banner = () => {
   const Styles = {
@@ -13,7 +13,8 @@ const Banner = () => {
       h-full
       w-full
       object-cover
-      object-[0_-200px]
+      object-[0_-450px]
+      brightness-85
     `,
     textContainer: `
       absolute
@@ -21,9 +22,16 @@ const Banner = () => {
       top-1/3
       text-white
       font-semibold
+      text-8xl
       w-2/3
-      text-6xl
+      mix-blend-overlay
+      hover:mix-blend-normal
     `,
+    title: `
+      tracking-wide
+      drop-shadow-2xl
+      pl-4
+    `
   };
   return (
     <div className={Styles.contenedor}>
@@ -33,7 +41,7 @@ const Banner = () => {
         className={Styles.image}
       />
       <div className={Styles.textContainer}>
-        <h2 className="drop-shadow-lg">
+        <h2 className={Styles.title}>
           La industria automotriz de Colombia a prueba
         </h2>
       </div>

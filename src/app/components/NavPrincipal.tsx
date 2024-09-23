@@ -5,6 +5,8 @@ const NavPrincipal = () => {
     nav: `
       select-none
       h-[10vh]
+      hidden
+      sm:flex
     `,
     list: `
       w-full

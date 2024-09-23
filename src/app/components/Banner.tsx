@@ -7,39 +7,40 @@ const Banner = () => {
     contenedor: `
       select-none
       relative
-      h-[40vh]
-    `,
-    image: `
-      h-full
-      w-full
-      object-cover
-      object-[0_-450px]
-      brightness-85
+      h-1/2
+      sm:w-screen
+      sm:h-[40vh]
     `,
     textContainer: `
-      absolute
+      h-full
+      w-full
+      bg-[url('/images/tutiCar1.jpeg')]
+      bg-no-repeat
+      bg-center
+      sm:bg-[0_64%]
       flex 
-      top-1/3
+      items-center
       text-white
       font-semibold
-      text-8xl
-      w-2/3
-      mix-blend-overlay
-      hover:mix-blend-normal
+      text-6xl
+      sm:text-8xl
     `,
     title: `
+      drop-shadow-2xl
+      sm:opacity-50
+      transition-opacity
+      duration-200
+      ease-in-out
+      sm:hover:opacity-100
+      w-full
+      sm:w-2/3
       tracking-wide
       drop-shadow-2xl
-      pl-4
+      sm:pl-4
     `
   };
   return (
     <div className={Styles.contenedor}>
-      <Image
-        src={TwoCars}
-        alt="Photo of a Cobra and SL 300"
-        className={Styles.image}
-      />
       <div className={Styles.textContainer}>
         <h2 className={Styles.title}>
           La industria automotriz de Colombia a prueba

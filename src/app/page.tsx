@@ -4,10 +4,10 @@ import Properties from "./components/Properties";
 
 export default function Home() {
   return (
-    <>
+    <div>
       <Banner />
       <Greeting />
       <Properties />
-    </>
+    </div>
   );
 }

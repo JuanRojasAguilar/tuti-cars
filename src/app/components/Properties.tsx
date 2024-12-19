@@ -49,11 +49,14 @@ const PropertyCard = ({icon = "", title, descText}: ICard) => {
 const Properties = () => {
   const Styles = {
     container: `
-      flex 
+      flex
+      flex-col
+      items-center
+      sm:flex-row
       gap-6
-      px-12
+      sm:px-12
       py-12
-      justify-center
+      sm:justify-center
     `,
   }
   return (

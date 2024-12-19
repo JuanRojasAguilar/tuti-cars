@@ -3,25 +3,22 @@ const Banner = () => {
   const Styles = {
     contenedor: `
       select-none
-      relative
       h-[76vh]
-      w-max
       sm:w-full
       sm:h-[40vh]
     `,
     textContainer: `
       h-full
-      w-full
+      sm:w-full
       bg-[url('/images/tutiCar1.jpeg')]
       bg-no-repeat
       bg-cover
       sm:bg-[0_64%]
-      flex 
+      flex
       items-center
       text-white
       font-semibold
       text-6xl
-      sm:text-8xl
     `,
     title: `
       drop-shadow-2xl

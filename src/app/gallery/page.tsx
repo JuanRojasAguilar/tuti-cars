@@ -24,10 +24,17 @@ const Gallery = () => {
 
   const styles = {
     mainSection: `
-      flex 
-      gap-4
-      px-12
-      pt-8
+      flex
+      flex-col
+      items-center
+      sm:items-start
+      sm:flex-row
+      sm:gap-4
+      gap-20
+      mb-20
+      sm:px-12
+      pt-[100px]
+      sm:pt-[72px]
     `,
   };
 

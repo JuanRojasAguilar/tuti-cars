@@ -1,20 +1,21 @@
 const Styles = {
   container: `
     pt-6
-    pl-4
-    sm:pl-12 
+    px-8
+    sm:pl-12
     text-4xl
-    sm:text-5xl 
+    sm:text-5xl
     tracking-wide
     gap-6
     flex
     flex-col
+    items-center
   `,
   title: `
-    
+
   `,
   text: `
-    text-xl
+    text-lg
     sm:text-3xl
   `
 }
@@ -29,4 +30,3 @@ const Greeting = () => {
 }
 
 export default Greeting;
-

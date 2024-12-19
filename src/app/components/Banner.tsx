@@ -1,14 +1,12 @@
-import Image from "next/image";
-
-import TwoCars from "/public/images/tutiCar1.jpeg";
 
 const Banner = () => {
   const Styles = {
     contenedor: `
       select-none
       relative
-      h-1/2
-      sm:w-screen
+      h-[76vh]
+      w-max
+      sm:w-full
       sm:h-[40vh]
     `,
     textContainer: `
@@ -16,7 +14,7 @@ const Banner = () => {
       w-full
       bg-[url('/images/tutiCar1.jpeg')]
       bg-no-repeat
-      bg-center
+      bg-cover
       sm:bg-[0_64%]
       flex 
       items-center

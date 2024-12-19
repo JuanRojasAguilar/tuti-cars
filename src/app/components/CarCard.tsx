@@ -9,19 +9,17 @@ interface IcarCard {
 const CarCard = ({ src, title, description }: IcarCard) => {
   const Styles = {
     card: `
-      flex 
+      flex
       flex-col
-      text-white
-      bg-slate-500
       w-[340px]
       rounded-lg
-      bg-gradient-to-b 
-      from-slate-500
-      to-black
+      bg-gradient-to-b
+      from-slate-800
+      to-grey-200
     `,
     textContainer: `
       h-full
-      flex 
+      flex
       flex-col
       text-xl
       p-4

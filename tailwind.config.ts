@@ -8,8 +8,7 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      objectPosition: {
-        'sl300': '0 20%'
+      colors: {
       }
     },
   },

@@ -11,7 +11,7 @@ const NavPrincipal = () => {
     list: `
       w-full
       h-full
-      flex 
+      flex
     `,
     listItem: `
       w-1/3
@@ -22,7 +22,7 @@ const NavPrincipal = () => {
     listLink: `
       text-4xl
       font-normal
-      flex 
+      flex
       justify-center
       items-center
       h-full
@@ -31,29 +31,31 @@ const NavPrincipal = () => {
       duration-200
       hover:ease-in-out
       hover:bg-white
-      hover:text-[#3f4a3d]
+      hover:text-slate-500
     `,
   };
   return (
-    <nav className={Styles.nav}>
-      <ul className={Styles.list}>
-        <li className={Styles.listItem}>
-          <Link href="/" className={Styles.listLink}>
-            Inicio
-          </Link>
-        </li>
-        <li className={Styles.listItem}>
-          <Link href="/gallery" className={Styles.listLink}>
-            Galeria
-          </Link>
-        </li>
-        <li className={Styles.listItem}>
-          <Link href="/contact" className={Styles.listLink}>
-            Contacto
-          </Link>
-        </li>
-      </ul>
-    </nav>
+    <>
+      <nav className={Styles.nav}>
+        <ul className={Styles.list}>
+          <li className={Styles.listItem}>
+            <Link href="/" className={Styles.listLink}>
+              Inicio
+            </Link>
+          </li>
+          <li className={Styles.listItem}>
+            <Link href="/gallery" className={Styles.listLink}>
+              Galeria
+            </Link>
+          </li>
+          <li className={Styles.listItem}>
+            <Link href="/contact" className={Styles.listLink}>
+              Contacto
+            </Link>
+          </li>
+        </ul>
+      </nav>
+    </>
   );
 };
 

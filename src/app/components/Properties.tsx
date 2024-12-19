@@ -13,9 +13,8 @@ interface ICard {
 const PropertyCard = ({icon = "", title, descText}: ICard) => {
   const Styles = {
     card: `
-      hidden 
       sm:flex-col
-      h-60
+      h-44
       w-80
       border-0
       p-4
@@ -30,8 +29,8 @@ const PropertyCard = ({icon = "", title, descText}: ICard) => {
       text-3xl
     `,
     description: `
-      text-xl
-      pt-2
+      text-2xl
+      pt-4
       pl-2
     `
   }

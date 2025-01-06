@@ -91,21 +91,27 @@ const NavPrincipal = () => {
 					>
 						<div
 							className={`absolute transition-all transform duration-500 ease-out ${
-								isOpen ? "rotate-[45deg] -translate-y-4" : "rotate-90 -translate-y-6"
+								isOpen
+									? "rotate-[45deg] -translate-y-4"
+									: "rotate-90 -translate-y-6"
 							}`}
 						>
 							&#124;
 						</div>
 						<div
 							className={`absolute transition-all transform duration-500 ease-out ${
-								isOpen ? "rotate-[135deg] -translate-y-[.9rem]" : "rotate-90 -translate-y-4"
+								isOpen
+									? "rotate-[135deg] -translate-y-[.9rem]"
+									: "rotate-90 -translate-y-4"
 							}`}
 						>
 							&#124;
 						</div>
 						<div
 							className={`absolute transition-all transform duration-500 ease-out ${
-								isOpen ? "rotate-[45deg] -translate-y-4" : "rotate-90 -translate-y-2"
+								isOpen
+									? "rotate-[45deg] -translate-y-4"
+									: "rotate-90 -translate-y-2"
 							}`}
 						>
 							&#124;

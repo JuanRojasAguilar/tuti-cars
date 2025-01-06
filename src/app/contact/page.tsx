@@ -7,6 +7,8 @@ import YouTubeIcon from "@mui/icons-material/YouTube";
 const Contact = () => {
   const Styles = {
     asidePhoto: `
+      hiddden
+      sm:block
       h-full
       w-auto
       object-contain
@@ -17,12 +19,13 @@ const Contact = () => {
       w-1/2
       pl-8
       py-6
-      flex 
-      flex-col 
+      flex
+      flex-col
       justify-center
     `,
     pageTitle: `
-      text-8xl
+      text-4xl
+      sm:text-8xl
       mb-4
     `,
     list: `
@@ -38,7 +41,7 @@ const Contact = () => {
     `,
   };
   return (
-    <section className="flex w-full h-[90vh]">
+    <section className="flex flex-col sm:flex-row sm:w-full pt-[100px]">
       <div className={Styles.container}>
         <h1 className={Styles.pageTitle}>Contactanos!</h1>
         <figure>

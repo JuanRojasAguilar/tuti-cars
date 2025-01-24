@@ -61,10 +61,10 @@ const Properties = () => {
   }
   return (
     <div className={Styles.container}>
-      <PropertyCard icon={BrushIcon} title="Artesanal" descText="Un carro Tuti es artesanal"/>
-      <PropertyCard icon={PublicIcon} title="Nacional" descText="Un carro Tuti es hecho en Colombia"/>
-      <PropertyCard icon={WatchIcon} title="Elegante" descText="Un carro tuti es elegante"/>
-      <PropertyCard icon={AccessibilityNewIcon} title="Unico" descText="Un carro Tuti es distintivo"/>
+      <PropertyCard icon={BrushIcon} title="Artesanal" descText="Un carro Gutierrez es artesanal"/>
+      <PropertyCard icon={PublicIcon} title="Nacional" descText="Un carro Gutierrez es hecho en Colombia"/>
+      <PropertyCard icon={WatchIcon} title="Elegante" descText="Un carro Gutierrez es elegante"/>
+      <PropertyCard icon={AccessibilityNewIcon} title="Unico" descText="Un carro Gutierrez es distintivo"/>
     </div>
   )
 }

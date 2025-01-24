@@ -6,8 +6,8 @@ import NavPrincipal from "./components/NavPrincipal";
 const inter = Afacad({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Tuti Cars",
-  description: "Tuti Cars page",
+  title: "Gutierrez Workshop",
+  description: "Gutierrez Workshop Page",
 };
 
 export default function RootLayout({

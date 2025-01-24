@@ -121,7 +121,7 @@ const NavPrincipal = () => {
 						href={"/"}
 						className="italic text-2xl"
 					>
-						Tuti-Cars
+						Gutierrez Workshop
 					</Link>
 				</div>
 				{isOpen && (

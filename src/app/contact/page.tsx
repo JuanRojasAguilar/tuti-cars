@@ -45,10 +45,10 @@ const Contact = () => {
       <div className={Styles.container}>
         <h1 className={Styles.pageTitle}>Contactanos!</h1>
         <figure>
-          <figcaption className={Styles.listTitle}>Tuti Gutierrez</figcaption>
+          <figcaption className={Styles.listTitle}>Gutierrez</figcaption>
 
           <ul className={Styles.list}>
-            {/* <li>correo@mail.com</li> */}
+            {/* <li>gutierrez.workshop@gmail.com</li> */}
             <li className={Styles.listItem}>
               <Link
                 href=""
